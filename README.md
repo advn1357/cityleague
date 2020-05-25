@@ -1,2 +1,4 @@
 # cityleague
-해당 소스는 개발버전용입니다.
+해당 저장소는 호스팅용으로만 사용중입니다.
+
+주소:https://advn1357.github.io/cityleague/src/index.html
