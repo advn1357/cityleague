@@ -5,6 +5,18 @@
         <meta charset="utf-8">
         <link rel = "stylesheet" href="link/index.css">
         <link rel = "stylesheet" href="link/top.css">
+        <style>
+            @media(max-width: 831px){
+                #bottom{
+                    height: 120px;  
+                }
+            }
+            @media(min-width: 832px){
+                #naver{
+                    display: none;
+                }
+            }
+        </style>
     </head>
     <body>
         <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
@@ -58,6 +70,8 @@ if(window.wcs) {
             <br>해당 홈페이지는 오픈소스로 MIT라이선스를 따릅니다.
             <br>Copyright (c) 2020 advn1357
             <br><a href = "https://github.com/advn1357/cityleague" style = "color: blue">소스 코드</a>
+            <div id = "naver" class="nv-openmain" data-url="도능리그" data-type="W2"></div>
         </div>
+        <script type="text/javascript"? src="https://test-openmain.m.naver.com/js/openmain.js"></script>
     </body>
 </html>
